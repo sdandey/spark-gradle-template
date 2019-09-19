@@ -1,4 +1,4 @@
-package template.spark
+package com.ubs.ds2.spark
 
 import org.apache.log4j.{Level, LogManager, Logger}
 import org.apache.spark.sql.SparkSession
@@ -27,6 +27,8 @@ trait InitSpark {
     LogManager.getRootLogger.setLevel(Level.ERROR)
   }
   init
+
+
   def close = {
     spark.close()
   }

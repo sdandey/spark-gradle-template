@@ -1,4 +1,4 @@
-package template.spark
+package com.ubs.ds2.spark
 
 import org.apache.spark.sql.functions._
 
